@@ -1,0 +1,11 @@
+[package]
+name = "sha1"
+version = "0.1.0"
+edition = "2024"
+authors = ["Ashir Ahmed"]
+description = "Implementing sha1 from scratch"
+
+[dependencies]
+sha1-checked = "0.10.0"
+#to comfirm correct hash. Note: used sha1-checked and not sha1 crate 
+#since shared name to this project.
